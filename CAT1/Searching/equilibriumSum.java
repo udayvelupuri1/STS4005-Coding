@@ -18,7 +18,7 @@ class equilibriumsum {
 
             int suffSum = arr[i];
 
-            for (int j = n - 1; j > 0; j--) {
+            for (int j = n - 1; j > i; j--) {
                 suffSum += arr[j];
             }
 
